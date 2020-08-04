@@ -53,7 +53,7 @@ url: `https://xiaodu.baidu.com/duertv/homefeed/push?code=\${code}&t=\${timestamp
 | 字段名 | 字段类型 | 描述 |是否必填 | 备注 |
 |---|---|---|---|---|
 | list_info[].title| String| 标题 | 是 | 多图模板`title`为各子卡的标题，7个字以内最佳 |
-| list_info[].url | Object| 资源链接 | 是 |{"action": "", "applink": ""} 详见link_click说明|
+| list_info[].url | Object| 资源链接 | 是 |{"action": "", "applink": ""} 详见url说明|
 | list_info[].image_url| String| 资源图片 | 是 | JPG格式, 具体尺寸要求如下$$ \begin{cases} 尺寸:1280*800, 不超过500KB, & \text {if SINGLE_ENTITY} \\ 比例3:4, 尺寸:210*280, & \text{if MULTITY_VERTICAL 4图} \\ 比例4:3, 尺寸:240*180, & \text{if MULTITY_HORIZONTAL 3图}\end{cases} $$ |
 | list_info[].index      | int      | 卡片内部 | 否       | 从1开始编号                                                  |
 
