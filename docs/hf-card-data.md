@@ -71,6 +71,29 @@ url: `https://xiaodu.baidu.com/duertv/homefeed/push?code=\${code}&t=\${timestamp
 #### 请求数据格式及示例
 
 json格式
+单图：
+```
+{
+    "partner": "ireader",
+    "bg_image": "",
+    "resource_id": "1234",
+    "title": "掌阅|掌阅课外书漫画飙升榜",
+    "template": "SINGLE_ENTITY",
+    "hint": "打开掌阅",
+    "list_info": [
+        {
+            "title": "疯了！桂宝　5(开心卷)",
+            "link_click": {
+                "action": "android.intent.action.MAIN",
+                "applink": "ireader://com.zhangyue.read.edu.scheme/openurl?url=http%3A%2F%2Fk12.zhangyue.com%2Fzybk%2Faudio%2Fdetail%3Fid%3D30020138%26isPlay%3D0%26type%3D1%26reqType%3D26%26launch%3Dinside"
+            },
+            "image_url": "http://book.img.ireader.com/idc_1/m_4,w_480,h_640,q_80/63621c27/group6/M00/3C/71/CmRaIVjAZeuEBnBKAAAAAHVfmps429758548.jpg?v=5gtBXf5P",
+            "index": 1
+        }
+    ]
+}
+```
+多竖图：
 ```
 {
     "partner": "ireader",
@@ -78,6 +101,7 @@ json格式
     "resource_id": "1234",
     "title": "掌阅课外书漫画飙升榜",
     "template": "MULTITY_VERTICAL",
+    "hint": "打开掌阅",
     "list_info": [
         {
             "title": "疯了！桂宝　5(开心卷)",
