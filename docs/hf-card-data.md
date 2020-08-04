@@ -46,7 +46,8 @@ url: `https://xiaodu.baidu.com/duertv/homefeed/push?code=\${code}&t=\${timestamp
 | 4| resource_id| String | 卡片id | 是 |卡片id相同视为一张卡片（资源方内资源的唯一标识） |
 | 5| title| String | 卡片名称| 是 | 卡片title(屏幕展现)，单张卡片标题：app名\|正式标题xxx |
 | 6| hint| String | hint| 否 | 语音调起的Query, 支持多个, 例如:"打开APP", "打开资源名" |
-| 7| list_info| list_info | 资源列表 | 是 |内部卡片数目必须与template对应，`SINGLE_ENTITY`数目为1，`MULTITY_VERTICAL`数目为4，`MULTITY_HORIZONTAL`数目为3 |
+| 7| link_more| String | 更多链接 | 否 | 未说明可不填|
+| 8| list_info| List | 资源列表 | 是 |内部卡片数目必须与template对应，`SINGLE_ENTITY`数目为1，`MULTITY_VERTICAL`数目为4，`MULTITY_HORIZONTAL`数目为3 |
 
 ##### list_info
 
