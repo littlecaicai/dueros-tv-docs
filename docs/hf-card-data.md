@@ -34,8 +34,6 @@ url: `https://xiaodu.baidu.com/duertv/homefeed/push?code=\${code}&t=\${timestamp
 |2002 | 字段值为空 | {"status":2002,"msg":"vod_code is null"} |
 |2003 | 字段值错误 | {"status":2003,"msg":"type error"} |
 |2004 | 同一个请求中，partner不唯一 | {"status":2004,"msg":"partner is not unique"} |
-|2005 | 记录数超过10条 | {"status":2005,"msg":"too many rows"} |
-
 #### 数据字段
 
 |序号 | 字段名 | 字段类型 | 描述 |是否必填 | 备注 |
