@@ -81,7 +81,7 @@ json格式
     "list_info": [
         {
             "title": "疯了！桂宝　5(开心卷)",
-            "link_click": {
+            "url": {
                 "action": "android.intent.action.MAIN",
                 "applink": "ireader://com.zhangyue.read.edu.scheme/openurl?url=http%3A%2F%2Fk12.zhangyue.com%2Fzybk%2Faudio%2Fdetail%3Fid%3D30020138%26isPlay%3D0%26type%3D1%26reqType%3D26%26launch%3Dinside"
             },
@@ -103,7 +103,7 @@ json格式
     "list_info": [
         {
             "title": "疯了！桂宝　5(开心卷)",
-            "link_click": {
+            "url": {
                 "action": "android.intent.action.MAIN",
                 "applink": "ireader://com.zhangyue.read.edu.scheme/openurl?url=http%3A%2F%2Fk12.zhangyue.com%2Fzybk%2Faudio%2Fdetail%3Fid%3D30020138%26isPlay%3D0%26type%3D1%26reqType%3D26%26launch%3Dinside"
             },
@@ -112,7 +112,7 @@ json格式
         },
         {
             "title": "疯了！桂宝7·欢腾卷",
-            "link_click": {
+            "url": {
                 "action": "android.intent.action.MAIN",
                 "applink": "ireader://com.zhangyue.read.edu.scheme/openurl?url=http%3A%2F%2Fk12.zhangyue.com%2Fzybk%2Faudio%2Fdetail%3Fid%3D30020138%26isPlay%3D0%26type%3D1%26reqType%3D26%26launch%3Dinside"
             },
@@ -121,7 +121,7 @@ json格式
         },
         {
             "title": "父与子",
-            "link_click": {
+            "url": {
                 "action": "android.intent.action.MAIN",
                 "applink": "ireader://com.zhangyue.read.edu.scheme/openurl?url=http%3A%2F%2Fk12.zhangyue.com%2Fzybk%2Faudio%2Fdetail%3Fid%3D30020138%26isPlay%3D0%26type%3D1%26reqType%3D26%26launch%3Dinside"
             },
@@ -130,7 +130,7 @@ json格式
         },
         {
             "title": "爱上漫画：Q版美少女漫画技法一学就会",
-            "link_click": {
+            "url": {
                 "action": "android.intent.action.MAIN",
                 "applink": "ireader://com.zhangyue.read.edu.scheme/openurl?url=http%3A%2F%2Fk12.zhangyue.com%2Fzybk%2Faudio%2Fdetail%3Fid%3D30020138%26isPlay%3D0%26type%3D1%26reqType%3D26%26launch%3Dinside"
             },
