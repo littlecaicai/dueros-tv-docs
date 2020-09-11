@@ -60,7 +60,7 @@ url: `https://xiaodu.baidu.com/duertv/homefeed/push?code=\${code}&t=\${timestamp
 
 | 字段名 | 字段类型 | 描述 |是否必填 | 备注 |
 |---|---|---|---|---|
-| url[].type | String| 跳转类型：H5(跳转到h5链接) ；SOURCE_DETAIL(跳转到详情页面，默认可不填) | 否 | |
+| url[].type | String| 跳转类型：H5(跳转到h5链接)| 跳转到h5时必填，其他可不填 | |
 | url[].source_id | String| 资源的source_id | 否 | |
 | url[].h5_url | String| h5跳转链接 | 否 | type=H5时，需要填写|
 | url[].action | String| app打开后的动作（apk内部自己定义），对应Open指令的action，action不为空时会通过intent将applink传给action对应的activity，action为空时会通过intent将applink传启动页activity，activity通过intent.getString("url")获取applink。 | 否 | |
