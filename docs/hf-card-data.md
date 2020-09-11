@@ -60,8 +60,11 @@ url: `https://xiaodu.baidu.com/duertv/homefeed/push?code=\${code}&t=\${timestamp
 
 | 字段名 | 字段类型 | 描述 |是否必填 | 备注 |
 |---|---|---|---|---|
-| url[].action | String| app打开后的动作（apk内部自己定义），对应Open指令的action，action不为空时会通过intent将applink传给action对应的activity，action为空时会通过intent将applink传启动页activity，activity通过intent.getString("url")获取applink。 | 是 | |
-| url[].applink | String| 要打开的apk的页面的地址，对应Open指令的app.url | 是 | |
+| url[].type | String| 跳转类型：目前包括： H5(跳转到h5链接)  | 否 | |
+| url[].source_id | String| 资源的source_id | 否 | |
+| url[].h5_url | String| h5跳转链接 | 否 | type=H5时，需要填写|
+| url[].action | String| app打开后的动作（apk内部自己定义），对应Open指令的action，action不为空时会通过intent将applink传给action对应的activity，action为空时会通过intent将applink传启动页activity，activity通过intent.getString("url")获取applink。 | 否 | |
+| url[].applink | String| 要打开的apk的页面的地址，对应Open指令的app.url | 否 | |
 
 
 
